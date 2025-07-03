@@ -50,14 +50,14 @@ article{
 }
 
 #imagem1 {
-    background: black url("imagens/background001.jpg") center right / cover no-repeat fixed;
+    background: black url("../imagens/background001.jpg") center right / cover no-repeat fixed;
     min-height: 500px;
     max-height: 700px;
     height: 60vw;
 }
 
 #imagem2 {
-    background: black url('imagens/background002.jpg') center center / cover no-repeat fixed;
+    background: black url('../imagens/background002.jpg') center center / cover no-repeat fixed;
     min-height: 500px;
     max-height: 700px;
     height: 60vw;
@@ -71,10 +71,7 @@ article{
 }
 
 footer {
-    background-color: black;
-}
-
-footer > p {
     color: white;
     text-align: center;
+    background-color: black;
 }
