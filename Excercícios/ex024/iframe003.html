@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quas vero est optio nulla velit reprehenderit, pariatur minima illum nobis minus vitae commodi suscipit accusamus iste consequuntur quasi quidem similique.
+    Perspiciatis similique repellendus magni nihil ad earum, dolores qui eligendi repudiandae tempora unde voluptate cupiditate pariatur distinctio. Inventore iure voluptatem laborum qui quibusdam molestias, quidem quae ratione aliquid voluptatibus ullam?</p>
+    
+    <ul>
+        <li><a href="paginas_extras/pagina001.html" target="frame">primeira página</a></li>
+        <li><a href="paginas_extras/pagina002.html" target="frame">segunda página</a></li>
+        <li><a href="paginas_extras/pagina003.html" target="frame">terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro commodi unde vero ipsum reprehenderit, ipsam hic quas impedit voluptas provident inventore earum aspernatur dolor, quam quasi nemo a fuga.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos in fuga molestias aut ea aspernatur illum deserunt, ducimus ullam nesciunt cumque accusantium assumenda, nobis expedita optio ipsam deleniti placeat eaque!
+    Ipsum quos ducimus facere modi officia soluta qui laboriosam eum? Pariatur reiciendis dolorum unde non doloremque, earum odio aspernatur aperiam, recusandae deserunt ab, obcaecati qui laudantium repellendus illum neque asperiores?</p>
+</body>
+</html>
