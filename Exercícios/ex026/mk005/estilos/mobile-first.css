@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.3em;
+    background-color: lightgrey;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: darkgray;
+}
+
+nav label {
+    display: block;
+    text-align: center;
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li {
+    background-color: rgb(92, 88, 88);
+    color: rgb(209, 204, 204);
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.418);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.411);
+}
+
+#menu, #icaixa {
+    display: none;
+}
+
+#icaixa:checked + #menu {
+    display: block;
+}
+
+main {
+    background-color: gray;
+    width: 50vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main p {
+    line-height: 50px;
+    text-align: justify;
+}
