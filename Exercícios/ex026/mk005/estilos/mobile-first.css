@@ -34,6 +34,8 @@ nav li {
     text-align: center;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.418);
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.411);
+    padding: 1vw;
+    margin: 1vw;
 }
 
 #menu, #icaixa {
