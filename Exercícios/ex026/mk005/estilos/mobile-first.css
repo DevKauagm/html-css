@@ -22,9 +22,16 @@ header {
 nav label {
     display: block;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(44, 43, 43);
+    color: white;
     text-decoration: none;
     padding: 15px;
+}
+
+nav label:hover {
+    background-color: white;
+    color: rgb(44, 43, 43);
+    cursor: pointer;
 }
 
 nav li {
