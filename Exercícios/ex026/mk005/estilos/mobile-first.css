@@ -52,7 +52,11 @@ main {
     padding: 20px;
 }
 
+main h2 {
+    margin: 15px;
+}
+
 main p {
-    line-height: 50px;
-    text-align: justify;
+    line-height: 30px;
+    font-size: .8em;
 }
